@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "src", // This must be specified if "paths" is.
+        "esModuleInterop": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "noResolve": false,
+        "paths": {
+            "@components": [
+                "src/components"
+            ],
+            "@core": [
+                "src/core"
+            ],
+            "@layouts": [
+                "src/layouts"
+            ],
+            "@routers": [
+                "src/routers"
+            ],
+            "@shareComponents": [
+                "src/shareComponents"
+            ]
+        },
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "es6"
+    },
+    "exclude": [
+        "./node_modules/**/*"
+    ]
+}
